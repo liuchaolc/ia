@@ -27,7 +27,7 @@ public class ParseJson {
 
 	public static class Relation {
 		
-		String name;  //关系的标识
+		String name; 
 		// HashMap<String,String> properties;
 		String expression; //这玩意我好像用不着
 		
