@@ -1,4 +1,4 @@
-package ue.neo4j.utils;
+package ue.ia.neo4j.utils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

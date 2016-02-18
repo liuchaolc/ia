@@ -1,4 +1,4 @@
-package ue.neo4j.utils;
+package ue.ia.neo4j.utils;
 
 /**
  * 自定义异常

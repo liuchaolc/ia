@@ -1,36 +1,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>ue</groupId>
-  <artifactId>ia</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+	<groupId>ue</groupId>
+	<artifactId>ia</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
-  <name>ia</name>
-  <url>http://maven.apache.org</url>
+	<name>ia</name>
+	<url>http://maven.apache.org</url>
 
-  <properties>
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	 <repositories>
-		<!-- <repository>
-			<id>Spark repository</id>
-			<url>http://www.sparkjava.com/nexus/content/repositories/spark/</url>
-		</repository> -->
+	<repositories>
+		<!-- <repository> <id>Spark repository</id> <url>http://www.sparkjava.com/nexus/content/repositories/spark/</url> 
+			</repository> -->
 		<repository>
 			<id>Neo4j releases</id>
 			<url>http://m2.neo4j.org/content/repositories/releases</url>
 		</repository>
-		<!-- <repository>
-			<id>Neo4j snapshots</id>
-			<url>http://m2.neo4j.org/content/repositories/snapshots</url>
-		</repository>
-		<repository>
-			<id>mandubian-mvn</id>
-			<url>http://mandubian-mvn.googlecode.com/svn/trunk/mandubian-mvn/repository</url>
-		</repository> -->
+		<!-- <repository> <id>Neo4j snapshots</id> <url>http://m2.neo4j.org/content/repositories/snapshots</url> 
+			</repository> <repository> <id>mandubian-mvn</id> <url>http://mandubian-mvn.googlecode.com/svn/trunk/mandubian-mvn/repository</url> 
+			</repository> -->
 	</repositories>
 
 	<dependencies>
@@ -41,51 +34,21 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- <dependency> <groupId>org.neo4j</groupId> <artifactId>neo4j-jdbc</artifactId> 
-			<version>2.0.2</version> </dependency> -->
 
-		<!-- <dependency>
-			<groupId>org.neo4j</groupId>
-			<artifactId>neo4j</artifactId>
-			<version>2.3.1</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>org.neo4j</groupId> <artifactId>neo4j</artifactId> 
+			<version>2.3.1</version> </dependency> -->
 
-		<dependency>
+		 <dependency>
 			<groupId>org.neo4j</groupId>
 			<artifactId>neo4j-jdbc</artifactId>
 			<version>2.1.4</version>
-		</dependency>
+		</dependency> 
 
-		<!-- <dependency> <groupId>org.neo4j</groupId> <artifactId>neo4j-jdbc</artifactId> 
-			<version>2.3-SNAPSHOT</version> </dependency> -->
 
 		<dependency>
 			<groupId>c3p0</groupId>
 			<artifactId>c3p0</artifactId>
 			<version>0.9.1.2</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>20151123</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>org.apache.pdfbox</groupId>
-			<artifactId>pdfbox</artifactId>
-			<version>1.8.10</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>2.4</version>
-		</dependency>
-		<dependency>
-			<groupId>dom4j</groupId>
-			<artifactId>dom4j</artifactId>
-			<version>1.6.1</version>
 		</dependency>
 	</dependencies>
 
