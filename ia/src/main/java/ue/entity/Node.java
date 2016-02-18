@@ -34,8 +34,6 @@ public class Node {
 	}
 
 	public String getProperty(String key) {
-		return this.properties.getOrDefault(key, "");
+		return this.properties.get(key);
 	}
-
-
 }
