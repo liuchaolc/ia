@@ -81,7 +81,7 @@ public class Importer {
 			nodeData.setLabel(label);
 			
 			//调用JDBC创建节点
-			NodeUtils.createNode(nodeData);
+			//NodeUtils.createNode(nodeData);
 			
 		}
 		
@@ -115,10 +115,15 @@ public class Importer {
 			relation.setHeadNodeProName(node[1].split("=")[0]);
 			relation.setHeadNodeProValue(node[1].split("=")[1]);
 			
+			
+			
+			//获取第二个节点
 			node=tmp[1].split(",");
-			relation.setTailNodeProName(node[0]);
+			relation.setTailNodeType(node[0]);
 			relation.setTailNodeProName(node[1].split("=")[0]);
 			relation.setTailNodeProValue(node[1].split("=")[1]);
+			//System.out.println(tmp[1]);
+			//System.out.println(node[0]);
 			
 			relation.setLabel(tmp[2]);
 			
