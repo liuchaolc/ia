@@ -50,6 +50,22 @@
 			<artifactId>c3p0</artifactId>
 			<version>0.9.1.2</version>
 		</dependency>
+		
+		<!-- JSON -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20151123</version>
+		</dependency>
+		
+		<!-- IO Units -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.4</version>
+		</dependency>
+		
+		
 	</dependencies>
 
 	<build>
